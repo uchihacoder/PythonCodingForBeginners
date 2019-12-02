@@ -1,0 +1,7 @@
+I|1001I001|60.00|Premium Internet|100|Tony Stark
+C|1001C001|80.00|Digital Cable|Sports,Family|Tony Stark
+P|1001P001|135.50|Premium Phone|555-555-5551|Tony Stark
+I|1002I001|80.00|Gold Internet|150|Bruce Banner
+C|1002C001|80.00|Digital Cable|College Basketball,Movies|Bruce Banner
+P|1003P001|25.50|Standard Phone|5555555552|Steve Rodgers
+I|1003I001|60.00|Premium Internet|100

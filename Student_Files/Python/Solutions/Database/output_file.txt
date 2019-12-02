@@ -1,0 +1,5 @@
+List Products:1001I001: price=60.0, desc=Premium Internet, package=100.0
+1001C001: price=80.0, desc=Digital Cable, packages=['Sports', 'Family']
+1001P001: price=35.5, desc=Premium Phone, phone=555-555-5551
+1002I001: price=70.0, desc=Gold Internet, package=150.0
+1003C001: price=80.0, desc=Digital Cable, packages=['College Basketball', 'Movies']

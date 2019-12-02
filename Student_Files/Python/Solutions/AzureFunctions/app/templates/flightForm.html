@@ -1,0 +1,25 @@
+<html>
+
+<body>
+<script>
+function processForm() {
+  var flightno = document.getElementById("flightno").value;
+  var orig = document.getElementById("orig").value;
+  var dest = document.getElementById("dest").value;
+  window.alert(flightno + ',' + orig + ',' dest)
+  location.href='http://127.0.0.1:5000/flight/processForm';
+}
+function processIt() {
+    window.alert('woop woop')
+}
+</script>
+<form>
+    <div>Add Flight</div>
+    <div>Flight No<input type='text' name='flightno'></div>
+    <div>Orig<input type='text' name='orig'></div>
+    <div>Dest<input type='text' name='dest'></div>
+    <div><button type='button' onclick="processIt()">Add</button></div>
+</form>
+
+</body>
+</html>

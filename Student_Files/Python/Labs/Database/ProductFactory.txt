@@ -1,0 +1,24 @@
+    @staticmethod
+    def loadJSONProducts():
+        JSONproducts = []
+        productDataFile = open("Products.data", "r")
+        for line in productDataFile:
+            rawProduct = json.loads(line)
+            JSONproducts.append( rawProduct)
+        return JSONproducts
+
+    # Open and insert records into the MongoDB database.
+    @staticmethod
+    def insertDBProducts():
+        client = MongoClient()
+        db = client.productsDB
+
+        # Drop the products collection if it exists.
+        db.products.drop()
+        JSONproducts = ProductFactory.loadJSONProducts()
+
+        for JSONproduct in JSONproducts:
+            print("inserting into database:", JSONproduct)
+            db.products.insert(JSONproduct)
+
+        client.close()

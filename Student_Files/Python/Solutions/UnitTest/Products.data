@@ -1,0 +1,5 @@
+{ "type": "I", "prodNo": "1001I001", "price": 60.00, "desc": "Premium Internet", "speed": 100, "custName": "Tony Stark"}
+{ "type": "C", "prodNo": "1001C001", "price": 80.00, "desc": "Digital Cable", "packages": ["Sports","Family"], "custName": "Tony Stark" }
+{ "type": "P", "prodNo": "1001P001", "price": 35.50, "desc": "Premium Phone", "telNo": "555-555-5551", "custName": "Tony Stark"}
+{ "type": "I", "prodNo": "1002I001", "price": 70.00, "desc": "Gold Internet", "speed": 150, "custName": "Bruce Banner"}
+{ "type": "C", "prodNo": "1003C001", "price": 80.00, "desc": "Digital Cable", "packages": ["College Basketball","Movies"], "custName": "Steve Rodgers" }

@@ -1,0 +1,5 @@
+I|1001I001|60.00|Premium Internet|100
+C|1001C0001|80.00|Digital Cable|Sports,Family
+C|1001C001|80.00|Digital Cable|Sports,Family
+P|10010001|25.50|Standard Phone|555-555-5555
+P|1001P001|25.50|Standard Phone|555-555-5555

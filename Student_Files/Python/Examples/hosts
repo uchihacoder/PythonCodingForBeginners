@@ -1,0 +1,140 @@
+#<ip-address>  <hostname.domain.org>           <hostname>
+127.0.0.1      localhost.localhost.local       localhost
+::1            localhost.localhost.local       localhost
+
+12.200.15.10      ill-r2-sw2.testlab.com          ill-r2-sw2
+12.200.15.11      ill-r2-sw3.testlab.com          ill-r2-sw3
+12.200.15.12      ill-r2-sw4.testlab.com          ill-r2-sw4
+12.200.15.13      ill-bsmt-sw1.testlab.com        ill-bsmt-sw1
+12.200.15.14      ill-dsgn-sw1.testlab.com        ill-dsgn-sw1
+12.200.15.15      ill-dsgn-sw2.testlab.com        ill-dsgn-sw1
+12.200.15.16      ill-grph-sw1.testlab.com        ill-grph-sw1
+12.200.15.17      ill-grph-sw2.testlab.com        ill-grph-sw2
+12.200.15.3       ill-r3-sw1.testlab.com          ill-r3-sw1
+12.200.15.4       ill-r3-sw2.testlab.com          ill-r3-sw2
+12.200.15.5       ill-r1-sw1.testlab.com          ill-r1-sw1
+12.200.15.6       ill-r1-sw2.testlab.com          ill-r1-sw2
+12.200.15.7       ill-r1-sw3.testlab.com          ill-r1-sw3
+12.200.15.8       ill-r1-sw4.testlab.com          ill-r1-sw4
+12.200.15.9       ill-r2-sw1.testlab.com          ill-r2-sw1
+12.200.16.254     ill-fw1.testlab.com             ill-fw1
+
+175.63.1.2      deco1.testlab.com               deco1
+175.63.1.201    de-sw1.testlab.com              de-sw1
+175.63.1.202    de-sw2.testlab.com              de-sw2
+175.63.1.203    de-sw3.testlab.com              de-sw3
+175.63.1.204    de-sw4.testlab.com              de-sw4
+175.63.1.205    de-sw5.testlab.com              de-sw5
+175.63.1.206    de-sw6.testlab.com              de-sw6
+175.63.1.207    de-sw7.testlab.com              de-sw7
+175.63.1.208    de-sw8.testlab.com              de-sw8
+175.63.1.209    de-sw9.testlab.com              de-sw9
+175.63.1.210    de-sw10.testlab.com             de-sw10
+175.63.1.211    de-sw11.testlab.com             de-sw11
+175.63.1.212    de-sw12.testlab.com             de-sw12
+175.63.1.213    de-sw13.testlab.com             de-sw13
+
+111.111.0.2     illil2.testlab.com           illil2
+111.111.0.3     DaCent-sw1.testlab.com       DaCent-sw1
+111.111.0.4     DaCent-sw2.testlab.com       DaCent-sw2
+111.111.0.5     DaCent-sw3.testlab.com       DaCent-sw3
+111.111.0.6     DaCent-sw4.testlab.com       DaCent-sw4
+111.111.0.7     DaCent-sw5.testlab.com       DaCent-sw5
+111.111.1.252   DaCent-mgmt.testlab.com      DaCent-mgmt
+111.111.1.254   DaCent-fw1.testlab.com       DaCent-fw1
+111.111.101.2   vce3560a.testlab.com         vce3560a
+111.111.101.3   vce3560b.testlab.com         vce3560b
+111.111.101.4   vcev13006nx5k01.testlab.com  vcev13006nx5k01
+111.111.101.5   vcev13006nx5k02.testlab.com  vcev13006nx5k02
+111.111.105.15  vcev13006nx1001.testlab.com  vcev13006nx1001
+
+12.12.0.2      washdc1.testlab.com             washdc1
+12.12.0.3      wdc-sw1.testlab.com             wdc-sw1
+
+13.13.0.1      ccsr1.testlab.com               illil3
+13.13.0.3      ccs-sw1.testlab.com             ccs-sw1
+
+15.15.0.1      cha-sw1.testlab.com             cha-sw1
+15.15.0.2      cha-sw2.testlab.com             cha-sw2
+15.15.55.1     cha_r1.testlab.com              cha_r1
+
+16.16.0.10     mi-phone-sw3.testlab.com        mi-phone-sw3
+16.16.0.11     mi-data-sw4.testlab.com         mi-data-sw4
+16.16.0.12     mi-phone-sw4.testlab.com        mi-phone-sw4
+16.16.0.13     mi-server-sw1.testlab.com       mi-server-sw1
+16.16.0.14     mi-server-sw2.testlab.com       mi-server-sw2
+16.16.0.2      mimi1.testlab.com               mimi1
+16.16.0.3      mi-core-sw1.testlab.com         mi-core-sw1
+16.16.0.4      mi-data-sw1.testlab.com         mi-data-sw1
+16.16.0.5      mi-phone-sw1.testlab.com        mi-phone-sw1
+16.16.0.6      mi-data-sw2.testlab.com         mi-data-sw2
+16.16.0.7      mi-phone-sw2.testlab.com        mi-phone-sw2
+16.16.0.8      mi-core-sw2.testlab.com         mi-core-sw2
+16.16.0.9      mi-data-sw3.testlab.com         mi-data-sw3
+16.16.1.254    mi-fw2.testlab.com              mi-fw2
+
+17.17.0.2      ut1.testlab.com                 ut1
+17.17.0.3      ut-sw1.testlab.com              ut-sw1
+17.17.0.4      ut-sw2.testlab.com              ut-sw2
+17.17.0.5      ut-sw3.testlab.com              ut-sw3
+17.17.0.6      ut-sw4.testlab.com              ut-sw4
+17.17.0.7      ut-sw5.testlab.com              ut-sw5
+
+18.18.0.2      fl_r1.testlab.com               fl_r1
+18.18.0.3      fl-sw1.testlab.com              fl-sw1
+18.18.0.4      fl-sw2.testlab.com              fl-sw2
+18.18.0.5      fl-sw3.testlab.com              fl-sw3
+18.18.0.6      fl-sw4.testlab.com              fl-sw4
+18.18.0.7      fl-sw5.testlab.com              fl-sw5
+18.18.0.8      fl-sw6.testlab.com              fl-sw6
+18.18.0.9      fl-sw7.testlab.com              fl-sw7
+
+19.19.0.1      nv-dist-sw1.testlab.com        nv-dist-sw1
+19.19.0.2      nv-src-sw1.testlab.com         nv-srv-sw1
+19.19.0.3      nv-sw1.testlab.com             nv-sw1
+19.19.0.4      nv-sw2.testlab.com             nv-sw2
+19.19.0.5      nv-sw3.testlab.com             nv-sw3
+19.19.0.6      nv-sw4.testlab.com             nv-sw4
+19.19.0.7      nv-sw5.testlab.com             nv-sw5
+19.19.0.8      nv-sw6.testlab.com             nv-sw6
+19.19.55.2     nv-fw1.testlab.com             nv-fw1
+
+21.21.0.2      mimi2.testlab.com               mimi2
+21.21.0.3      miwhse-sw1.testlab.com          miwhse-sw1
+21.21.0.4      miwhse-sw2.testlab.com          miwhse-sw2
+21.21.0.5      miwhse-sw3.testlab.com          miwhse-sw3
+21.21.0.6      miwhse-sw4.testlab.com          miwhse-sw4
+21.21.0.7      miwhse-sw5.testlab.com          miwhse-sw5
+21.21.0.8      miwhse-sw6.testlab.com          miwhse-sw6
+
+30.30.30.2     voip_r1.testlab.com             voip_r1
+
+192.168.0.2      kolnde1.testlab.com             kolnde1
+192.168.0.3      de-sw1.testlab.com              de-sw1
+192.168.0.4      de-sw2.testlab.com              de-sw2
+192.168.0.5      de-sw3.testlab.com              de-sw3
+192.168.0.6      de-sw4.testlab.com              de-sw4
+192.168.0.7      de-voip-sw1.testlab.com         de-voip-sw1
+
+172.16.22.2       laca1.testlab.com               laca1
+172.16.22.3       cyp-sw1.testlab.com             cyp-sw1
+172.16.22.4       cyp-sw2.testlab.com             cyp-sw2
+172.16.22.5       cyp-sw3.testlab.com             cyp-sw3
+172.16.22.6       cyp-sw4.testlab.com             cyp-sw4
+172.16.22.7       cyp-sw5.testlab.com             cyp-sw5
+172.16.22.8       cyp-sw6.testlab.com             cyp-sw6
+
+10.6.0.2       nola1.testlab.com               nola1
+10.6.0.3       no-sw1.testlab.com              no-sw1
+
+10.7.0.2       sfca1.testlab.com               sfca1
+10.7.0.3       sf-sw1.testlab.com              sf-sw1
+
+10.8.0.2       papa1.testlab.com               papa1
+10.8.0.3       pa-sw1.testlab.com              pa-sw1
+10.8.0.4       pa-sw2.testlab.com              pa-sw2
+10.8.0.5       pa-sw3.testlab.com              pa-sw3
+
+10.9.0.2       oh_r1.testlab.com               oh_r11
+10.9.0.3       oh-sw1.testlab.com              oh-sw1
+10.9.0.4       oh-sw2.testlab.com              oh-sw2
