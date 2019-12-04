@@ -1,10 +1,12 @@
 # Labs/Regex/regex.py
 #
 
-#additional code goes here
+import re
 
 file = open("./aboutpython.txt", "r")
 
 for line in file:
-    #additional code goes here
-    print(line)
+
+    revised_line = re.sub("Py", "Python", line)
+
+    print(revised_line)

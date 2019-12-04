@@ -1,0 +1,2 @@
+product #: 1001I001, price: 60.00, description: Premium Internet, speed: 100.00
+product #: 1001C001, price: 80.00, description: Digital Cable, packages: ['Sports', 'Family']

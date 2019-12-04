@@ -30,13 +30,20 @@ class ShoppingCart:
         self.__products.remove(product)
 
     def listProducts(self):
-        for product in self.__products:
-            print(product)
+        print(f"Writing the products to a file...")
+        # for product in self.__products:
+        #     print(product)
+
+        with open("kevins_output_file.txt", "w+") as file:
+            for product in self.__products:
+                file.write(str(product) + "\n")
+
+        print(f"...done!")
 
     def getTotal(self):
         total = 0.00
 
         for product in self.__products:
-            total += product.get_price()
+            total = total + float(product.get_price())
 
         return total
