@@ -1,11 +1,12 @@
 import unittest
-from ..ProductFactory import ProductFactory
+# from ProductFactory import ProductFactory
+import ProductFactory
 
 
 class ProductFactoryTests(unittest.TestCase):
     def test_loadJSONProducts_should_load_data_from_file(self):
         # act
-        products_from_file = ProductFactory.loadJSONProducts()
+        products_from_file = ProductFactory.ProductFactory.loadJSONProducts()
 
         # assert
         self.assertTrue(products_from_file)
@@ -14,14 +15,14 @@ class ProductFactoryTests(unittest.TestCase):
     @unittest.skip("right now this is a LIVE test so skipping until we can mock MongoDB")
     def test_insertDBProducts_should_insert_products_into_mongodb(self):
         # act
-        completed = ProductFactory.insertDBProducts()
+        completed = ProductFactory.ProductFactory.insertDBProducts()
 
         # assert
         self.assertTrue(completed)
 
     def test_queryDBProducts_should_retrieve_products_from_mongodb(self):
         # act
-        products = ProductFactory.queryDBProducts()
+        products = ProductFactory.ProductFactory.queryDBProducts()
 
         # assert
         self.assertTrue(products)
