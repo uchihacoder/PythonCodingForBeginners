@@ -1,12 +1,14 @@
 import os
 import re
+import json
+from pymongo import MongoClient
 from Product import Product
 from Internet import Internet
 from Cable import Cable
 
 
 class ProductFactory:
-    DATA_FILE_PATH = r"/Users/kevinjdonohue/GitHub/PythonCodingForBeginners/Student_Files/Python/Labs/Regex"
+    DATA_FILE_PATH = r"/Users/kevinjdonohue/GitHub/PythonCodingForBeginners/Student_Files/Python/Labs/Database"
 
     @staticmethod
     # def getProducts():
@@ -55,6 +57,7 @@ class ProductFactory:
 
     @staticmethod
     def getProducts():
+
         products = []
 
         data_file_path = ProductFactory.DATA_FILE_PATH
@@ -96,5 +99,78 @@ class ProductFactory:
                     #     new_product = Phone(prod_no, price, desc, telephone_no)
 
                     #     products.append(new_product)
+
+        return products
+
+    @staticmethod
+    def loadJSONProducts():
+        products = []
+
+        data_file_path = ProductFactory.DATA_FILE_PATH
+
+        os.chdir(data_file_path)
+
+        with open("Products.data", "r") as file:
+
+            for line in file:
+                raw_product = json.loads(line)
+                products.append(raw_product)
+
+        return products
+
+    @staticmethod
+    def insertDBProducts():
+        client = MongoClient()
+
+        productsDB = client.productsDB
+
+        json_products = ProductFactory.loadJSONProducts()
+
+        if json_products:
+            for json_product in json_products:
+                # print(f"Inserting product {json_product} into MongoDB.")
+                productsDB.products.insert_one(json_product)
+
+            return True
+        else:
+            return False
+
+        client.close()
+
+    @staticmethod
+    def queryDBProducts():
+        products = []
+
+        client = MongoClient()
+
+        productsDB = client.productsDB
+
+        products_cursor = productsDB.products.find()
+
+        for json_product in products_cursor:
+            # print(f"Retrieved {json_product} from MongoDB.")
+
+            prod_num = json_product["prodNo"]
+            price = json_product["price"]
+            desc = json_product["desc"]
+
+            if json_product["type"] == "I":
+                speed = float(json_product["speed"])
+
+                new_product = Internet(prod_num, price, desc, speed)
+
+                products.append(new_product)
+
+            elif json_product["type"] == "C":
+                packages = json_product["packages"]
+
+                new_product = Cable(prod_num, price, desc, packages)
+
+                products.append(new_product)
+
+            # TODO:  For now, you don't have Phones implemented elsewhere, so skip it
+            # elif json_product["type"] == "P":
+
+        client.close()
 
         return products

@@ -7,7 +7,8 @@ from ProductFactory import ProductFactory
 from IllegalArgumentException import IllegalArgumentException
 
 cart = ShoppingCart('Tony Stark')
-products = ProductFactory.getProducts()
+# products = ProductFactory.getProducts()
+products = ProductFactory.queryDBProducts()
 
 for p in products:
     try:
