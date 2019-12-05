@@ -30,3 +30,4 @@ onCall called
 myFunction1 called
 myFunction1 called
 myFunction1 called
+logging stufflogging stuff

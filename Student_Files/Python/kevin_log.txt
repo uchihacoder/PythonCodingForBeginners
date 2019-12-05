@@ -1,0 +1,4 @@
+my_decorator: before -- my_function called at 2019-12-04 13:35:51.279109
+my_decorator: after -- my_function called at 2019-12-04 13:35:51.279414
+my_decorator: before -- another_function called at 2019-12-04 13:35:51.279989
+my_decorator: after -- another_function called at 2019-12-04 13:35:51.280149
