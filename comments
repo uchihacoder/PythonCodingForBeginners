@@ -1,0 +1,8 @@
+# this is single line comment in python
+"""
+this a multi line comment in python
+"""
+
+'''
+this is another multi line comment in python
+'''
